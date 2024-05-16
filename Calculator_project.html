@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Calculator_project.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="heading">
+        <h2>Calculator</h2>
+        <input type="number" id="in" class="head"></input>
+    
+    <div class="grid">
+        <button class="number" onclick="clickNumber('7')">7</button>
+        <button class="number" onclick="clickNumber('8')">8</button>
+        <button class="number" onclick="clickNumber('9')">9</button>
+        <button class="number" onclick="del()">Del</button>
+        <button class="number" onclick="clickNumber('4')">4</button>
+        <button class="number" onclick="clickNumber('5')">5</button>
+        <button class="number" onclick="clickNumber('6')">6</button>
+        <button class="number">+</button>
+        <button class="number" onclick="clickNumber('1')">1</button>
+        <button class="number" onclick="clickNumber('2')">2</button>
+        <button class="number" onclick="clickNumber('3')">3</button>
+        <button class="number">-</button>
+        <button class="number">.</button>
+        <button class="number" onclick="clickNumber('0')">0</button>
+        <button class="number">/</button>
+        <button class="number">x</button>
+        <button class="number" onclick="reset()">Reset</button>
+        <button class="number" onclick="calculate()">=</button>
+    </div>
+</div>
+        <script src="./Calculator_project.js"></script>
+</body>
+</html>
